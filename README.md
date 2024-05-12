@@ -4,7 +4,7 @@ This repository holds the means to build simple containers for LaTeX usage. Spec
 
 There are two options. Either build a "full" texlive or a limited "xetex" container image.
 
-Since the "full" image contains a complete texlive environment, the container can be used for LaTeX based commands as well. On the other hand it's a rather large image. (5.08G)
+Since the "full" image contains a complete texlive environment, the container can be used for other LaTeX based projects as well. On the other hand it's a rather large image. (5.08G)
 
 The smaller "xetex" image is only about 1.5G in size.
 
