@@ -1,0 +1,15 @@
+FROM debian:12.5-slim
+
+RUN \
+  mkdir -p /data && \
+  chmod 777 /data 
+
+RUN \
+  apt update && \
+  apt-get -y install texlive-xetex 
+
+COPY resources/pdfcompile.sh /usr/local/bin/pdfcompile
+
+RUN chmod +x /usr/local/bin/pdfcompile
+
+WORKDIR /data
