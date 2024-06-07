@@ -1,5 +1,9 @@
 # Texlive in a Container
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/isc)
+[![Podman](https://img.shields.io/badge/Podman-grey?logo=podman&logoColor=ffffff)](https://github.com/containers/podman)
+[![Jekyll](https://img.shields.io/badge/Documentation%20Builder-LaTeX-green)](https://jekyllrb.com/)
+
 This repository holds the means to build simple containers for LaTeX usage. Specifically I use `xelatex` for my projects.
 
 There are two options. Either build a "full" texlive or a limited "xetex" container image.
@@ -55,4 +59,3 @@ Installing the `texlive-xetex` package in Debian 12 includes the following depen
 - texlive-plain-generic 
 - texlive-xetex
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/isc)
