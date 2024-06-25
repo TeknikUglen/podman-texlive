@@ -2,7 +2,7 @@
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/isc)
 [![Podman](https://img.shields.io/badge/Podman-grey?logo=podman&logoColor=ffffff)](https://github.com/containers/podman)
-[![Jekyll](https://img.shields.io/badge/Documentation%20Builder-LaTeX-green)](https://jekyllrb.com/)
+[![LaTeX](https://img.shields.io/badge/Documentation%20Builder-LaTeX-green)](https://tug.org/texlive/)
 
 This repository holds the means to build simple containers for LaTeX usage. Specifically I use `xelatex` for my projects.
 
